@@ -1,0 +1,62 @@
+body{
+    height:1300px;
+    margin:0px;
+    font-family:sans-serif;
+    background-color:darkslategray;
+    opacity:100%;
+}
+header{
+    overflow:hidden;
+    padding-top:25px;
+    padding-bottom:600px;
+    text-align:center;
+    font-family:cursive;
+    color:darkkhaki;
+    font-size:600%;
+    background-image:url(Bass2i.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top;
+    background-position:center;
+}
+ul{
+    margin-top:0;
+    margin-bottom:40px;
+    overflow:hidden;
+    background-color:#263;
+    list-style:none;
+    position:sticky;
+    top:0px;
+    padding:inherit;
+}
+li a{
+    float:left;
+    color:#f2f2f2;
+    padding:20px 40px;
+    text-decoration:none;
+    font-size:17px;
+}
+li a:hover{
+    background-color:darkgreen;
+    color:black;
+    font-weight:bolder;
+}
+.active{
+    background-color:#1D8348;
+    color:white;
+}
+div{
+    margin:40px;
+}
+img{
+    width:50%;
+    padding-right:40px;
+    padding-left:15px;
+}
+p{
+    padding-top:80px;
+    padding-right:50px;
+    font-family:monospace;
+    font-size:150%;
+    color:darkseagreen;
+}
